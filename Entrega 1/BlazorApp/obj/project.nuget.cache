@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "z17UUrGqv/zTkpdHCJensJqv5ItHFSvs+SmyFuZf9r0kazr1ZY1vm895bqBQzvB8sZp9FWAxfC4VI+u7Mev3mg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega 1\\BlazorApp\\BlazorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\heron\\.nuget\\packages\\blazorise\\0.9.1.2\\blazorise.0.9.1.2.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\blazorise.bootstrap\\0.9.1.2\\blazorise.bootstrap.0.9.1.2.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\blazorise.icons.fontawesome\\0.9.1.2\\blazorise.icons.fontawesome.0.9.1.2.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.6\\microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.6\\microsoft.aspnetcore.components.forms.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.6\\microsoft.aspnetcore.components.web.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.6\\microsoft.aspnetcore.metadata.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}

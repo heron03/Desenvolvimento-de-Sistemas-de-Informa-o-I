@@ -1,0 +1,11 @@
+<tr>
+    <td class="text-center"><input type="checkbox" bind="@Marcado" /></td>
+    <td>@Texto</td>
+</tr>
+
+@functions {
+    [Parameter]
+    public string Texto { get; set; }
+    [Parameter]
+    public bool Marcado { get; set; }
+}
