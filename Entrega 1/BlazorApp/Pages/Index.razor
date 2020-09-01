@@ -1,18 +1,52 @@
 ﻿@page "/"
-@using BlazorApp.Data
-@inject TodoService TodoService
 
 <h1>Todo List</h1>
 
-<Lista Todos="@todos" />
 
-@functions {
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Adicionar Tarefa" aria-label="Recipient's username" aria-describedby="button-addon2" @bind="novaTarefa" @onkeydown="CheckInput">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" @onclick="IncluirTarefa">Adicionar Tarefa</button>
+  </div>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th class="text-center" style="width:10%;">Marcado</th>
+            <th>Todo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var texto in lista)
+        {
+            <Item Texto="@texto"/>
+        }
+    </tbody>
+</table>
 
-    IList<Todo> todos;
 
-    protected override async Task OnInitializedAsync()
+@code {
+    private string UserInput { get; set; }
+    public List<string> lista = new List<string> { "Primeiro Item" };
+
+
+    private string novaTarefa = "";
+    private void CheckInput(KeyboardEventArgs keyEvent)
     {
-        todos = await TodoService.GetTodos();
+        if (keyEvent.Key == "Enter")
+        {
+            IncluirTarefa();
+            novaTarefa = string.Empty;
+        }
+
     }
 
+    private void IncluirTarefa()
+    {
+        if (novaTarefa != "")
+        {
+            lista.Add(novaTarefa);
+        }
+        novaTarefa = string.Empty;
+    }
 }
