@@ -49,9 +49,7 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.genruntimeconfig.cache
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.csproj.CopyComplete
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Item.razor.g.cs
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Lista.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\Razor\Shared\Item.razor.g.cs
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\obj\Debug\netcoreapp3.1\Razor\Shared\Lista.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\bin\Debug\netcoreapp3.1\BlazorApp.StaticWebAssets.xml
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\bin\Debug\netcoreapp3.1\Blazorise.dll
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega 1\BlazorApp\bin\Debug\netcoreapp3.1\Blazorise.Bootstrap.dll
