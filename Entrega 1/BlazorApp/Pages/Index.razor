@@ -19,7 +19,8 @@
     <tbody>
         @foreach (var texto in lista)
         {
-            <Item Texto="@texto"/>
+            bool i = true;
+            <Item Texto="@texto" Marcado=i/>
         }
     </tbody>
 </table>

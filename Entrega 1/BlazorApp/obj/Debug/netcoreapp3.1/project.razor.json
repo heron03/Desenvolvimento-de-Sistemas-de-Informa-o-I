@@ -144,88 +144,71 @@
         }
       },
       {
-        "HashCode": 49771492,
+        "HashCode": -1348291650,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
+        "Name": "BlazorApp.Shared.Item",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1982956681,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 806897792,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
+            "TagName": "Item"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
+            "Name": "Texto",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Texto"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Marcado",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Marcado"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt"
+          "Common.TypeName": "BlazorApp.Shared.Item"
         }
       },
       {
-        "HashCode": 1530649220,
+        "HashCode": 1150627768,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.SurveyPrompt",
+        "Name": "BlazorApp.Shared.Item",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.SurveyPrompt"
+            "TagName": "BlazorApp.Shared.Item"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
+            "Name": "Texto",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Texto"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Marcado",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "Marcado"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorApp.Shared.Item",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,71 +309,88 @@
         }
       },
       {
-        "HashCode": -1348291650,
+        "HashCode": 49771492,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.Item",
+        "Name": "BlazorApp.Shared.NavMenu",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Item"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Texto",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Texto"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Marcado",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "Marcado"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.Item"
+          "Common.TypeName": "BlazorApp.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 1150627768,
+        "HashCode": 1982956681,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.Item",
+        "Name": "BlazorApp.Shared.NavMenu",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.Item"
+            "TagName": "BlazorApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 806897792,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Texto",
+            "Name": "Title",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Texto"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Marcado",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "Marcado"
+              "Common.PropertyName": "Title"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.Item",
+          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1530649220,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
