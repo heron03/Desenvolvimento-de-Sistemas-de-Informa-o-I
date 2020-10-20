@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CRUD.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUD
 {
@@ -28,6 +29,8 @@ namespace CRUD
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<ProdutoService>();
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("MyDb2")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

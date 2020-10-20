@@ -3,10 +3,7 @@
 @using CRUD.Data
 @inject ProdutoService ProdutoService
 
-<h1>Weather forecast</h1>
-
-<p>This component demonstrates fetching data from a service.</p>
-
+<h1>Produtos</h1>
 @if (produtos == null)
 {
     <p><em>Loading...</em></p>
@@ -26,6 +23,10 @@ else
                 <tr>
                     <td>@produto.Nome</td>
                     <td>@produto.Preco</td>
+                    <td><button class="btn btn-primary" onclick="@EditProduto(@produto.Id)" style="width:110px;">Editar</button>
+                    </td>
+                    <td><button class="btn btn-danger" onclick="@DeleteProduto(@produto.Id)">
+                            Deletar</button></td>
                 </tr>
             }
         </tbody>
@@ -38,5 +39,10 @@ else
     protected override async Task OnInitializedAsync()
     {
         produtos = await ProdutoService.GetProdutoAsync(DateTime.Now);
+    }
+    protected async Task EditProduto(int produtoId)
+    { }
+    protected async Task DeleteProduto(int produtoId)
+    {
     }
 }
