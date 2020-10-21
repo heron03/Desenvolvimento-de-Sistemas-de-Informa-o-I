@@ -26,8 +26,13 @@
         "dependencies": {
           "Entrega4.Client": "1.0.0",
           "Entrega4.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Components.DataAnnotations.Validation": "3.2.0-rc1.20223.4",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "3.2.1",
+          "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.Design": "3.1.9",
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.9",
+          "System.ComponentModel.Annotations": "5.0.0-rc.1.20451.14",
+          "System.Net.Http.Json": "3.2.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -499,6 +504,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.9": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.9"
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/3.1.9": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.9"
@@ -832,25 +842,25 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
-      "System.Net.Http.Json/3.2.0": {
+      "System.Net.Http.Json/3.2.1": {
         "dependencies": {
-          "System.Text.Json": "4.7.1"
+          "System.Text.Json": "4.7.2"
         },
         "runtime": {
           "lib/netstandard2.0/System.Net.Http.Json.dll": {
             "assemblyVersion": "3.2.0.0",
-            "fileVersion": "4.800.20.22701"
+            "fileVersion": "4.700.20.27001"
           }
         },
         "compile": {
           "lib/netstandard2.0/System.Net.Http.Json.dll": {}
         }
       },
-      "System.Text.Json/4.7.1": {
+      "System.Text.Json/4.7.2": {
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {
-            "assemblyVersion": "4.0.1.1",
-            "fileVersion": "4.700.20.6702"
+            "assemblyVersion": "4.0.1.2",
+            "fileVersion": "4.700.20.21406"
           }
         },
         "compile": {
@@ -865,7 +875,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Pomelo.EntityFrameworkCore.MySql": "3.2.0",
           "System.ComponentModel.Annotations": "5.0.0-rc.1.20451.14",
-          "System.Net.Http.Json": "3.2.0"
+          "System.Net.Http.Json": "3.2.1"
         },
         "runtime": {
           "Entrega4.Client.dll": {}
@@ -875,6 +885,10 @@
         }
       },
       "Entrega4.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.DataAnnotations.Validation": "3.2.0-rc1.20223.4",
+          "System.ComponentModel.Annotations": "5.0.0-rc.1.20451.14"
+        },
         "runtime": {
           "Entrega4.Shared.dll": {}
         },
@@ -2552,6 +2566,13 @@
       "path": "microsoft.entityframeworkcore.relational/3.1.9",
       "hashPath": "microsoft.entityframeworkcore.relational.3.1.9.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mSgwjp0h5iqW5V49SVijR5O+kNpI1nitcbN12n9FYx/Ga6oCEFwXR/llBDesD6ASHw3Mx16vodJYJ7CEBx5rig==",
+      "path": "microsoft.entityframeworkcore.tools/3.1.9",
+      "hashPath": "microsoft.entityframeworkcore.tools.3.1.9.nupkg.sha512"
+    },
     "Microsoft.Extensions.Caching.Abstractions/3.1.9": {
       "type": "package",
       "serviceable": true,
@@ -2727,19 +2748,19 @@
       "path": "system.diagnostics.diagnosticsource/4.7.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
     },
-    "System.Net.Http.Json/3.2.0": {
+    "System.Net.Http.Json/3.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6VUCQKGS9A0RGkIIfLpvAbBOQdTgsffQJ0OOanEMuCC/couJtjRhK65/3kE97IYi6z5kvXYvQW4buZ2rH5zsDA==",
-      "path": "system.net.http.json/3.2.0",
-      "hashPath": "system.net.http.json.3.2.0.nupkg.sha512"
+      "sha512": "sha512-KkevRTwX9uMYxuxG2/wSql8FIAItB89XT36zoh6hraQkFhf2yjotDswpAKzeuaEuMhAia6c50oZMkP1PJoYufQ==",
+      "path": "system.net.http.json/3.2.1",
+      "hashPath": "system.net.http.json.3.2.1.nupkg.sha512"
     },
-    "System.Text.Json/4.7.1": {
+    "System.Text.Json/4.7.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
-      "path": "system.text.json/4.7.1",
-      "hashPath": "system.text.json.4.7.1.nupkg.sha512"
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
     },
     "Entrega4.Client/1.0.0": {
       "type": "project",

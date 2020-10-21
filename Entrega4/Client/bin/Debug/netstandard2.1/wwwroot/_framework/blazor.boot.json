@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Entrega4.Client.dll": "sha256-EO\/QR6gi3EyH3u0959v1iTVq4sOLGUerWBUOCLgPLFw=",
+      "Entrega4.Client.dll": "sha256-4wyLudl5r3mKyrdBDCz85j7+Fb+IS5Jdq\/SnzFrDoAo=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -44,7 +44,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-PBU5INASuPqDlIS0ic0TMSDwIZQ6BIM6N0S0K5FhZHE=",
-      "Entrega4.Shared.dll": "sha256-IHyb0opSGAWePFmd60+ObRxi6UKldQg4Wy5ib9\/t6oo=",
+      "Entrega4.Shared.dll": "sha256-Lbo8W29gxaoQevfw5zdg1mnHueF2795NQ\/gIR7q7Ln4=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-Vio27NdWW1HmLCdcXVEyHpx4LnRfNjOlElipIlxM\/uQ=",
       "Microsoft.Extensions.Primitives.dll": "sha256-6eWNJmObgA9g37KbjpD+lhTy18eoW5cLdTcnDGGojBU=",
@@ -61,8 +61,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Entrega4.Client.pdb": "sha256-BmeayriicnHCp0hoExaca4VpC0WjjrNtOefEwAWud0Q=",
-      "Entrega4.Shared.pdb": "sha256-1+qKlFMA3l7QMW2XyVXKxZVoBl3BEXV8vjpGykPPBqQ="
+      "Entrega4.Client.pdb": "sha256-K6OMxvbTjU\/dLV70tECiLjx0k1m6bFyxEPHEWW2PLpo=",
+      "Entrega4.Shared.pdb": "sha256-tDU\/tcepNnC9KMFAiE59w5c2vbjdlCG2bCl\/nBGHhnc="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

@@ -1,10 +1,10 @@
-using System;
-
-public class Produto
+namespace Entrega4.Shared
 {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Descricao { get; set; }
-    public decimal Preco { get; set; }
-    public DateTime Created { get; set; } = DateTime.UtcNow;
+    public class Produto
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Descricao { get; set; }
+        public decimal Preco { get; set; }
+    }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Entrega4.Server.Migrations
@@ -16,8 +15,7 @@ namespace Entrega4.Server.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(nullable: true),
                     Descricao = table.Column<string>(nullable: true),
-                    Preco = table.Column<decimal>(nullable: false),
-                    Created = table.Column<DateTime>(nullable: false)
+                    Preco = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>
                 {

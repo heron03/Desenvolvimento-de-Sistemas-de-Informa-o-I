@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-EO\/QR6gi3EyH3u0959v1iTVq4sOLGUerWBUOCLgPLFw=",
+      "hash": "sha256-4wyLudl5r3mKyrdBDCz85j7+Fb+IS5Jdq\/SnzFrDoAo=",
       "url": "_framework\/_bin\/Entrega4.Client.dll"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-IHyb0opSGAWePFmd60+ObRxi6UKldQg4Wy5ib9\/t6oo=",
+      "hash": "sha256-Lbo8W29gxaoQevfw5zdg1mnHueF2795NQ\/gIR7q7Ln4=",
       "url": "_framework\/_bin\/Entrega4.Shared.dll"
     },
     {
@@ -277,11 +277,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-BmeayriicnHCp0hoExaca4VpC0WjjrNtOefEwAWud0Q=",
+      "hash": "sha256-K6OMxvbTjU\/dLV70tECiLjx0k1m6bFyxEPHEWW2PLpo=",
       "url": "_framework\/_bin\/Entrega4.Client.pdb"
     },
     {
-      "hash": "sha256-1+qKlFMA3l7QMW2XyVXKxZVoBl3BEXV8vjpGykPPBqQ=",
+      "hash": "sha256-tDU\/tcepNnC9KMFAiE59w5c2vbjdlCG2bCl\/nBGHhnc=",
       "url": "_framework\/_bin\/Entrega4.Shared.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-jrsxzOy0cJWnrfeEdwus8TbjsNeL2BCJ0JRNgRZMd3s=",
+      "hash": "sha256-ev4y5xWZqKe1ucvLQyaltf+ExRIu7sY5I+jZqZ8kWm4=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "GAMLlAeZ"
+  "version": "tvnSTOEJ"
 };

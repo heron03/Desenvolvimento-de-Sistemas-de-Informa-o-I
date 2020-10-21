@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EO-QR6gi3EyH3u0959v1iTVq4sOLGUerWBUOCLgPLFw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4wyLudl5r3mKyrdBDCz85j7_Fb_IS5Jdq-SnzFrDoAo=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Client.dll.br"
     },
@@ -191,7 +191,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\IHyb0opSGAWePFmd60_ObRxi6UKldQg4Wy5ib9-t6oo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Lbo8W29gxaoQevfw5zdg1mnHueF2795NQ-gIR7q7Ln4=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Shared.dll.br"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BmeayriicnHCp0hoExaca4VpC0WjjrNtOefEwAWud0Q=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\K6OMxvbTjU-dLV70tECiLjx0k1m6bFyxEPHEWW2PLpo=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1_qKlFMA3l7QMW2XyVXKxZVoBl3BEXV8vjpGykPPBqQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tDU-tcepNnC9KMFAiE59w5c2vbjdlCG2bCl-nBGHhnc=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Shared.pdb.br"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jrsxzOy0cJWnrfeEdwus8TbjsNeL2BCJ0JRNgRZMd3s=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ev4y5xWZqKe1ucvLQyaltf_ExRIu7sY5I_jZqZ8kWm4=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dRRW4KfINSdkgudl6ilnK3cbrCPrOCJ08kFJXZQAfU4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WekV2ZuNs7uWHqyMm__x24kt8zTMS5Oe_rJLKxKjH1k=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }

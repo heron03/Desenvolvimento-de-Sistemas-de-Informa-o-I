@@ -636,6 +636,10 @@
       "Entrega4.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.DataAnnotations.Validation": "3.2.0-rc1.20223.4",
+          "System.ComponentModel.Annotations": "5.0.0-rc.1.20451.14"
+        },
         "compile": {
           "bin/placeholder/Entrega4.Shared.dll": {}
         },

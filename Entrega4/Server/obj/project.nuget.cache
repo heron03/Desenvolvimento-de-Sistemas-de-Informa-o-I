@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "reyY6hh65kG1x7CtkukAgapcIfeNpI5EhtchdzNCDboHW82anIiiPHHsC5CA/DLbomNy+rtfh/AUSyGOsAuudA==",
+  "dgSpecHash": "RfyrGKTgT2bBofvC4YCtBQdqGsu3uqxM2C91TjdTZdWLyDy6EBSSK9Glmns8f4g34XXAcRlOiR+SzAym3QoYnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Server\\Entrega4.Server.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.9\\microsoft.entityframeworkcore.analyzers.3.1.9.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.9\\microsoft.entityframeworkcore.design.3.1.9.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.9\\microsoft.entityframeworkcore.relational.3.1.9.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.9\\microsoft.entityframeworkcore.tools.3.1.9.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.9\\microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.9\\microsoft.extensions.caching.memory.3.1.9.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
@@ -47,8 +48,8 @@
     "C:\\Users\\heron\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.1.20451.14\\system.componentmodel.annotations.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\heron\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\heron\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
-    "C:\\Users\\heron\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+    "C:\\Users\\heron\\.nuget\\packages\\system.net.http.json\\3.2.1\\system.net.http.json.3.2.1.nupkg.sha512",
+    "C:\\Users\\heron\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7,11 +7,11 @@ using CRUD.Data;
 
 [ApiController]
 [Route("[controller]")]
-public class ProdutoController : Controller
+public class ProdutosController : Controller
 {
     private readonly AppDbContext db;
 
-    public ProdutoController(AppDbContext db)
+    public ProdutosController(AppDbContext db)
     {
         this.db = db;
     }

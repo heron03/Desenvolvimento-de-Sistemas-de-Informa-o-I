@@ -166,7 +166,6 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Entrega4.Client.RazorComponent.input.cache
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -178,7 +177,6 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Entrega4.Client.RazorCoreGenerate.cache
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
@@ -221,7 +219,6 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\IHyb0opSGAWePFmd60_ObRxi6UKldQg4Wy5ib9-t6oo=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\mQqyOIjuVduaLQ7ZyvDrChDLp8rTeQknIIWDzqsO4eY=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\3trD3kyUrc0a2IrNSfLT2rSZ35MMdD2qtqG_vk_U8QA=.hash
@@ -230,7 +227,6 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\DrtNiKIMjfSOdamH5Bs5zHmjFADgNiwrY5tRgTm6XuI=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\1_qKlFMA3l7QMW2XyVXKxZVoBl3BEXV8vjpGykPPBqQ=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
@@ -379,7 +375,6 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\bin\Debug\netstandard2.1\Pomelo.JsonObject.dll
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\bin\Debug\netstandard2.1\System.Collections.Immutable.dll
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\bin\Debug\netstandard2.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\EO-QR6gi3EyH3u0959v1iTVq4sOLGUerWBUOCLgPLFw=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\EcDo-GQZkQrOT1Xd0jMPE3NwT5lsMq5DNsPxHVidLDQ=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\qHdxgeB0nKE8odGQX_eGQwM_lg3dEkT2XpjVyoAB9bE=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\PBU5INASuPqDlIS0ic0TMSDwIZQ6BIM6N0S0K5FhZHE=.hash
@@ -389,6 +384,12 @@ C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvime
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\OiB7aMJ4FWCMAGUuPV8m-9CZgx0Kap_ejQFSALUhpeQ=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\sMUxQEgnL-opNKBj6P9vNoOnnwb0545vj6DOruCVDcE=.hash
 C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\cKAZb7xh11kZxyizcq_t1c8646D5ZoQNvEwOg3z_DX8=.hash
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\BmeayriicnHCp0hoExaca4VpC0WjjrNtOefEwAWud0Q=.hash
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\jrsxzOy0cJWnrfeEdwus8TbjsNeL2BCJ0JRNgRZMd3s=.hash
-C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\dRRW4KfINSdkgudl6ilnK3cbrCPrOCJ08kFJXZQAfU4=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Produto\ListaProduto.razor.g.cs
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\Razor\Pages\Produto\ListaProduto.razor.g.cs
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\Lbo8W29gxaoQevfw5zdg1mnHueF2795NQ-gIR7q7Ln4=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\tDU-tcepNnC9KMFAiE59w5c2vbjdlCG2bCl-nBGHhnc=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\begWONdKtnJNgupt8OSgcAT0GgKH7pdh8AGu_8axUAI=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\4wyLudl5r3mKyrdBDCz85j7_Fb_IS5Jdq-SnzFrDoAo=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\K6OMxvbTjU-dLV70tECiLjx0k1m6bFyxEPHEWW2PLpo=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\ev4y5xWZqKe1ucvLQyaltf_ExRIu7sY5I_jZqZ8kWm4=.hash
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Client\obj\Debug\netstandard2.1\integrity\WekV2ZuNs7uWHqyMm__x24kt8zTMS5Oe_rJLKxKjH1k=.hash

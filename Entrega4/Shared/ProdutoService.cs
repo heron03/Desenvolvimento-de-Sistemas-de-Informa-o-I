@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Entrega4.Shared;
 
 namespace Entrega4.Data
 {
@@ -18,8 +19,7 @@ namespace Entrega4.Data
                 Id = 1,
                 Nome = "A",
                 Descricao = "A",
-                Preco = 10,
-                Created = startDate
+                Preco = 10
             }).ToArray());
         }
     }
