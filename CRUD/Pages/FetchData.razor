@@ -2,9 +2,11 @@
 
 @using CRUD.Data
 @inject ProdutoService ProdutoService
+@using System.Net.Http.Json;
+@inject HttpClient http
 
 <h1>Produtos</h1>
-@if (produtos == null)
+@if (produtoList == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -18,14 +20,14 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var produto in produtos)
+            @foreach (var produto in produtoList)
             {
                 <tr>
                     <td>@produto.Nome</td>
                     <td>@produto.Preco</td>
-                    <td><button class="btn btn-primary" onclick="@EditProduto(@produto.Id)" style="width:110px;">Editar</button>
+                    <td><button class="btn btn-primary" onclick="" style="width:110px;">Editar</button>
                     </td>
-                    <td><button class="btn btn-danger" onclick="@DeleteProduto(@produto.Id)">
+                    <td><button class="btn btn-danger" onclick="">
                             Deletar</button></td>
                 </tr>
             }
@@ -34,15 +36,16 @@ else
 }
 
 @code {
-    private Produto[] produtos;
+    List<Produto> produtoList;
 
     protected override async Task OnInitializedAsync()
     {
-        produtos = await ProdutoService.GetProdutoAsync(DateTime.Now);
+
+        var produto = await http.GetFromJsonAsync<List<Produto>>("/Produto/Lista");
+        foreach (var item in produto)
+        {
+            produtoList.Add(item);
+        }
     }
-    protected async Task EditProduto(int produtoId)
-    { }
-    protected async Task DeleteProduto(int produtoId)
-    {
-    }
+
 }
