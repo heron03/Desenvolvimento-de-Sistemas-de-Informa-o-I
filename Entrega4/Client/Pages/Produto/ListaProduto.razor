@@ -5,7 +5,10 @@
 @using Entrega4.Shared;
 
 <h1>Produtos</h1>
-<button class="btn btn-primary" onclick="" style="width:110px;">Cadastrar produto</button>
+
+<NavLink class="nav-link" href="Produto/Cadastro" Match=@NavLinkMatch.All>
+    Cadastrar produto
+</NavLink>
 @if (produtoList == null)
 {
     <p><em>Loading...</em></p>

@@ -11850,6 +11850,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Pages\\Produto\\cadastro.razor",
+      "TargetPath": "Pages\\Produto\\cadastro.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Pages\\Produto\\ListaProduto.razor",
       "TargetPath": "Pages\\Produto\\ListaProduto.razor",
       "FileKind": "component"

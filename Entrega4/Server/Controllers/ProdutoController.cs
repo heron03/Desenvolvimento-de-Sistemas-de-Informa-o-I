@@ -24,4 +24,27 @@ public class ProdutoController : Controller
         var produtos = await db.Produtos.ToListAsync();
         return Ok(produtos);
     }
+
+     [HttpPost]
+    [Route("Create")]
+    public async Task<ActionResult> Post([FromBody] Produto produto)
+    {
+        try
+        {
+            var newProduto = new Produto
+            {
+                Nome = produto.Nome,
+                Descricao = produto.Descricao,
+                Preco = produto.Preco
+            };
+
+            db.Add(newProduto);
+            await db.SaveChangesAsync();//INSERT INTO
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            return View(e);
+        }
+    }
 }

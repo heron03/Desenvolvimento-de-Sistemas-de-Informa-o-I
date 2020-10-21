@@ -1,0 +1,49 @@
+@page "/Produto/Cadastro"
+@using Entrega4.Shared;
+@inject HttpClient  http
+@inject NavigationManager NavigationManager
+<h2>Criar Produtos</h2>
+<hr />
+<EditForm Model="@produto" OnValidSubmit="CreateProduto">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="Nome" class="control-label">Nome</label>
+                <InputText @bind-Value="@produto.Nome" class="form-control" />
+                <ValidationMessage For="@(()=> produto.Nome)" />
+            </div>
+            <div class="form-group">
+                <label for="Descricao" class="control-label">Descrição</label>
+                <InputText @bind-Value="@produto.Descricao" class="form-control" />
+                <ValidationMessage For="@(()=> produto.Descricao)" />
+            </div>
+            <div class="form-group">
+                <label for="Preco" class="control-label">Preço</label>
+                <InputNumber @bind-Value="@produto.Preco" class="form-control" />
+                <ValidationMessage For="@(()=> produto.Preco)" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Salvar" />
+                <input type="button" class="btn" @onclick="@Cancel" value="Cancelar" />
+            </div>
+        </div>
+    </div>
+</EditForm>
+@code {
+    Produto produto = new Produto();
+    protected async Task CreateProduto()
+    {
+        await http.PostAsJsonAsync("/Produto/Create", produto);
+        NavigationManager.NavigateTo("Produto/ListaProduto");
+    }
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("Produto/ListaProduto");
+    }
+}
