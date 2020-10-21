@@ -25,7 +25,7 @@ public class ProdutoController : Controller
         return Ok(produtos);
     }
 
-     [HttpPost]
+    [HttpPost]
     [Route("Create")]
     public async Task<ActionResult> Post([FromBody] Produto produto)
     {
@@ -47,4 +47,22 @@ public class ProdutoController : Controller
             return View(e);
         }
     }
+    [HttpDelete]
+    [Route("Delete/{id}")]
+    public async Task<ActionResult<Produto>> Delete(int id)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        var produto = await db.Produtos.FindAsync(id);
+        if (produto == null)
+        {
+            return NotFound();
+        }
+        db.Produtos.Remove(produto);
+        await db.SaveChangesAsync();
+        return Ok(produto);
+    }
+
 }

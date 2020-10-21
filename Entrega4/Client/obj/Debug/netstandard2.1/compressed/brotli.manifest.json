@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WIp7JgFa10ObeqL_8WQe8CRiFwq04kMM3z_uWoWsp4w=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ihUdqhEdypj_dLNESV5oXNU99OiFPI9CJA5bya1JsqA=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uQZTLVkCco6r6HqEITTEZXT7Qs_WGytjAnwr-mnDW0k=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Cbgujxd-YQDGg0PK8B59vFMaialtmqG61l5vyrQP3-c=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Entrega4.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Entrega4.Client.pdb.br"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\t-3E6tqUCdzokQZMmpmT74raY92WSA9-kdSplWRL9Zw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RHZEIIa4PNoUVk8VvyHuBmLgRp5SbQS7Q7GI_yPvo0I=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\caBoFP1ZLcBeFQUuusxOYVnbZRrulsedeCzAdGfdyhQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wb0jp70wR8nJaAIlbiaPSp1CyDb4yVLQqxiQBHM-dlo=.hash",
       "Source": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }

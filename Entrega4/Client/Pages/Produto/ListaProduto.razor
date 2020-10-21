@@ -31,7 +31,7 @@ else
                     <td>@String.Format("{0, 0:C2}", @produto.Preco)</td>
                     <td><button class="btn btn-primary" onclick="" style="width:110px;">Editar</button>
                     </td>
-                    <td><button class="btn btn-danger" onclick="">
+                    <td><button class="btn btn-danger" @onclick="@(() => DeleteProduto(produto.Id))">
                             Deletar</button></td>
                 </tr>
             }
@@ -51,6 +51,12 @@ else
             produtoList.Add(item);
         }
 
+    }
+    private async Task DeleteProduto(int id)
+    {
+        //call controller
+        await Http.DeleteAsync("/Produto/Delete/" + id);
+        NavigationManager.NavigateTo("Produto/ListaProduto", true);
     }
 
 }
