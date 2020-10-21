@@ -39,7 +39,7 @@ public class ProdutoController : Controller
             };
 
             db.Add(newProduto);
-            await db.SaveChangesAsync();//INSERT INTO
+            await db.SaveChangesAsync();
             return Ok();
         }
         catch (Exception e)
@@ -47,6 +47,37 @@ public class ProdutoController : Controller
             return View(e);
         }
     }
+
+
+    [HttpPut]
+    [Route("Update")]
+    public async Task<IActionResult> Put([FromBody] Produto produto)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        db.Entry(produto).State = EntityState.Modified;
+        try
+        {
+            await db.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException ex)
+        {
+            throw (ex);
+        }
+        return NoContent();
+    }
+
+    [HttpGet]
+    [Route("GetById")]
+    public async Task<IActionResult> Get([FromQuery] string id)
+    {
+        var produto = await db.Produtos.SingleOrDefaultAsync(x => x.Id == Convert.ToInt32(id));
+        return Ok(produto);
+    }
+
     [HttpDelete]
     [Route("Delete/{id}")]
     public async Task<ActionResult<Produto>> Delete(int id)

@@ -7,7 +7,7 @@
 <h1>Produtos</h1>
 
 <NavLink class="nav-link" href="Produto/Cadastro" Match=@NavLinkMatch.All>
-    Cadastrar produto
+    <button class="btn btn-success">Cadastrar produto</button>
 </NavLink>
 @if (produtoList == null)
 {
@@ -29,7 +29,8 @@ else
                     <td>@produto.Nome</td>
 
                     <td>@String.Format("{0, 0:C2}", @produto.Preco)</td>
-                    <td><button class="btn btn-primary" onclick="" style="width:110px;">Editar</button>
+                    <td>
+                        <a href="/Produto/Editar/@produto.Id.ToString()"><button class="btn btn-primary">Editar</button></a>
                     </td>
                     <td><button class="btn btn-danger" @onclick="@(() => DeleteProduto(produto.Id))">
                             Deletar</button></td>

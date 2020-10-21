@@ -3011,6 +3011,92 @@
         }
       },
       {
+        "HashCode": 1791009187,
+        "Kind": "Components.Component",
+        "Name": "Entrega4.Client.Pages.Produto.cadastro",
+        "AssemblyName": "Entrega4.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cadastro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Entrega4.Client.Pages.Produto.cadastro"
+        }
+      },
+      {
+        "HashCode": -693235159,
+        "Kind": "Components.Component",
+        "Name": "Entrega4.Client.Pages.Produto.cadastro",
+        "AssemblyName": "Entrega4.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Entrega4.Client.Pages.Produto.cadastro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Entrega4.Client.Pages.Produto.cadastro",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2078908231,
+        "Kind": "Components.Component",
+        "Name": "Entrega4.Client.Pages.Produto.Edit",
+        "AssemblyName": "Entrega4.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Edit"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Item",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Item"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Entrega4.Client.Pages.Produto.Edit"
+        }
+      },
+      {
+        "HashCode": 30555311,
+        "Kind": "Components.Component",
+        "Name": "Entrega4.Client.Pages.Produto.Edit",
+        "AssemblyName": "Entrega4.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Entrega4.Client.Pages.Produto.Edit"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Item",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Item"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Entrega4.Client.Pages.Produto.Edit",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1414235782,
         "Kind": "Components.Component",
         "Name": "Entrega4.Client.Shared.MainLayout",
