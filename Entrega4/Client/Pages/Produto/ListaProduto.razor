@@ -1,0 +1,63 @@
+@page "/Produto/ListaProduto"
+@using System.Net.Http
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Entrega4.Shared;
+
+<h1>Produtos</h1>
+
+<NavLink class="nav-link" href="Produto/Cadastro" Match=@NavLinkMatch.All>
+    <button class="btn btn-success">Cadastrar produto</button>
+</NavLink>
+@if (produtoList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var produto in produtoList)
+            {
+                <tr>
+                    <td>@produto.Nome</td>
+
+                    <td>@String.Format("{0, 0:C2}", @produto.Preco)</td>
+                    <td>
+                        <a href="/Produto/Editar/@produto.Id.ToString()"><button class="btn btn-primary">Editar</button></a>
+                    </td>
+                    <td><button class="btn btn-danger" @onclick="@(() => DeleteProduto(produto.Id))">
+                            Deletar</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<Produto> produtoList = new List<Produto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var products = await Http.GetFromJsonAsync<List<Produto>>("/Produto/Lista");
+        foreach (var item in products)
+        {
+            produtoList.Add(item);
+        }
+
+    }
+    private async Task DeleteProduto(int id)
+    {
+        //call controller
+        await Http.DeleteAsync("/Produto/Delete/" + id);
+        NavigationManager.NavigateTo("Produto/ListaProduto", true);
+    }
+
+}

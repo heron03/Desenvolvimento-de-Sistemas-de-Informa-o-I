@@ -1,0 +1,67 @@
+@page "/Produto/Editar"
+@page "/Produto/Editar/{Item}"
+@using Entrega4.Shared;
+@inject HttpClient  http
+@inject NavigationManager NavigationManager
+
+<h2>Editar Produtos</h2>
+<hr />
+<div class="card m-3">
+    <div class="card-body">
+        <EditForm Model="@produto" OnValidSubmit="HandleValidSubmit" @onreset="HandleReset">
+            <DataAnnotationsValidator />
+            <div class="form-row">
+                <div class="form-group col">
+                    <label>Nome</label>
+                    <InputText @bind-Value="produto.Nome" class="form-control" />
+                    <ValidationMessage For="@(() => produto.Nome)" />
+                </div>
+                <div class="form-group col">
+                    <label>Preço</label>
+                    <InputNumber @bind-Value="produto.Preco"  class="form-control" />
+                    <ValidationMessage For="@(() => produto.Preco)" />
+                </div>
+                    <div class="form-group col">
+                    <label>Descrição</label>
+                    <InputText @bind-Value="produto.Descricao" class="form-control" />
+                    <ValidationMessage For="@(() => produto.Descricao)" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary mr-1">Salvar</button>
+                <button type="reset" class="btn btn-secondary">Cancel</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    private Produto produto = new Produto();
+
+    [Parameter]
+    public string Item { get; set; }
+    private EditContext editContext { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var itemId = Item;
+        produto = await http.GetFromJsonAsync<Produto>($"/Produto/GetById?id={itemId}");
+        editContext = new EditContext(produto);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await http.PutAsJsonAsync("/Produto/Update", produto);
+        NavigationManager.NavigateTo("Produto/ListaProduto");
+
+    }
+
+    private void HandleReset()
+    {
+        produto = new Produto();
+        editContext = new EditContext(produto);
+    }
+
+    
+
+}

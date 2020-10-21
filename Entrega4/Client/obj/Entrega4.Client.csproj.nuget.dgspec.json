@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Entrega4.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Entrega4.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Entrega4.Client.csproj",
+        "projectName": "Entrega4.Client",
+        "projectPath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\Entrega4.Client.csproj",
+        "packagesPath": "C:\\Users\\heron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\heron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\Entrega4.Shared.csproj": {
+                "projectPath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\Entrega4.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.DataAnnotations.Validation": {
+              "target": "Package",
+              "version": "[3.2.0-rc1.20223.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.14, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\Entrega4.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\Entrega4.Shared.csproj",
+        "projectName": "Entrega4.Shared",
+        "projectPath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\Entrega4.Shared.csproj",
+        "packagesPath": "C:\\Users\\heron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\heron\\OneDrive\\Documentos\\Área de Trabalho\\Univem\\Navarro\\Desenvolvimento-de-Sistemas-de-Informa-o-I\\Entrega4\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\heron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.DataAnnotations.Validation": {
+              "target": "Package",
+              "version": "[3.2.0-rc1.20223.4, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
