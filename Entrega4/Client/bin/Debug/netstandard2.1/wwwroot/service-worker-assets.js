@@ -65,7 +65,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-8XOHnQD+F2NtYeOukVur1Q5b4apkI2w\/iE1T7qlf00g=",
+      "hash": "sha256-HABx3VmSxpJ7tLvJqp9zT3FS087ltYLNZSmKvBz5MpA=",
       "url": "_framework\/_bin\/Entrega4.Client.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-tiwlk2bCjjKn+Ufqqr91FmFPmXWjiVgOHjdamguOMUw=",
+      "hash": "sha256-4NcFHRpzqrYBTmWrj9GYUmq1fJyGi+H1+5fviJpt+BQ=",
       "url": "_framework\/_bin\/Entrega4.Client.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-n8ZC69gDJfhjZZQQHHapMMC7yrlAQJ92OQXQoJzInxQ=",
+      "hash": "sha256-tv8WEFlQm6CFBynyJBtP03p6AjCrJFfbTR+KAGUQljA=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "5gkBgI69"
+  "version": "GeBhgzZL"
 };
