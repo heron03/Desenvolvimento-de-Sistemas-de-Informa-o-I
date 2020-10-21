@@ -1,0 +1,9 @@
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\bin\Debug\netstandard2.1\Entrega4.Shared.deps.json
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\bin\Debug\netstandard2.1\Entrega4.Shared.dll
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\bin\Debug\netstandard2.1\Entrega4.Shared.pdb
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.csprojAssemblyReference.cache
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.AssemblyInfoInputs.cache
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.AssemblyInfo.cs
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.csproj.CoreCompileInputs.cache
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.dll
+C:\Users\heron\OneDrive\Documentos\Área de Trabalho\Univem\Navarro\Desenvolvimento-de-Sistemas-de-Informa-o-I\Entrega4\Shared\obj\Debug\netstandard2.1\Entrega4.Shared.pdb

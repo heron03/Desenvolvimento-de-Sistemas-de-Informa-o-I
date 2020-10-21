@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Entrega4.Server
 {
@@ -22,6 +23,9 @@ namespace Entrega4.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddDbContext<AppDbContext>(o =>
+                o.UseMySql(Configuration.GetConnectionString("MyDb2")));
 
             services.AddControllersWithViews();
             services.AddRazorPages();
